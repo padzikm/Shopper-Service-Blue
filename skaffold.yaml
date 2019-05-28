@@ -2,7 +2,7 @@ apiVersion: skaffold/v1beta2
 kind: Config
 build:
   artifacts:
-  - image: padzikm@gmail.com/shopper-service-blue
+  - image: padzikm/shopper-service-blue
     context: .
     docker: {}
   tagPolicy:
